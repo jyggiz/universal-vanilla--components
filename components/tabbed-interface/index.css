@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700');
+
+html {
+  font-size: 125%;
+  font-family: Asap, sans-serif;
+}
+
+body {
+  max-width: 40rem;
+  padding: 0 1rem;
+  margin: 1.5rem auto;
+}
+
+* {
+  color: inherit;
+}
+
+[aria-labelledby="toc-heading"] {
+  padding: 1rem;
+  border: 2px solid;
+}
+
+[aria-labelledby="toc-heading"] * {
+  margin: 0;
+}
+
+section:not(:target) {
+  display: none;
+}
